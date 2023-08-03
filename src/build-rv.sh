@@ -20,16 +20,6 @@ version="9.98.0-release.0"
 get_apkmirror "twitter"
 patch "twitter" "twitter-revanced-v$version"
 
-# Reddit
-get_patches_key "reddit"
-get_apkmirror "reddit"
-patch "reddit" "reddit-revanced-v$version"
-
-# Messenger
-get_patches_key "messenger"
-get_apkmirror "messenger" "arm64-v8a"
-patch "messenger" "messenger-revanced-v$version"
-
 # Patch Twitch 
 get_patches_key "twitch"
 get_ver "twitch"
